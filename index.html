@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>⭐️ Beep Profile Page</title>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Mukta:wght@300;500&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d130c65297.js" crossorigin="anonymous"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Beep</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 selection">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-user"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Help</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  </nav>
+  <h1>Profile Page</h1>
+  <section class="top-section">
+    <div class="row">
+      <div class="col">
+        <!-- <div class="row">
+          <div class="card profile-details">
+            Balance : <span class="balance"></span>
+          </div>
+        </div> -->
+        <div class="col profile-details">
+          <h5 class="profile-label">Name: </h5>
+          <span class="profile-box">
+            <h5 class="name border">Name</h5>
+          </span>
+
+          <h5 class="profile-label">Email: </h5>
+
+          <span class="profile-box">
+            <h5 class="email border">Email</h5>
+          </span>
+
+          <h5 class="profile-label">Username: </h5>
+
+          <span class="profile-box">
+            <h5 class="username border">Username</h5>
+          </span>
+
+        </div>
+
+      </div>
+
+      <div class="picture col">
+        <img class="profile-img" src="img/profilepic.jpg" alt="">
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+  <section class="bottom-section">
+    <div class="promotions-section">
+      <h4>Your Promotions</h4>
+      <div id="cards" class="row">
+
+      </div>
+    </div>
+  </section>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- JS -->
+  <script src="index.js" charset="utf-8"></script>
+  <section id="footer">
+    <div class="row">
+
+    </div>
+  </section>
+</body>
+
+</html>

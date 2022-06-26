@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+}
+h1, h2, h3 {
+  padding : 10px;
+  font-family : 'Hind Madurai', sans-serif;
+}
+
+h4, h5 {
+  padding : 2px;
+  font-family: 'Mukta', sans-serif;
+  font-weight: bold;
+}
+/* navbar */
+
+.nav-item {
+  padding : 0 30px;
+  margin-right: 2px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family : 'Futura', sans-serif;
+}
+
+/*top section*/
+.border {
+  width : 120%;
+}
+.row {
+  padding : 2px 50px;
+}
+.col {
+  margin : 20px;
+}
+.profile-img {
+  height: 250px;
+  border-radius : 50%;
+}
+.profile-details {
+  align-items: center;
+  text-align : left;
+  margin-left: 20%;
+}
+
+
+/*promotion item*/
+.promotions-section {
+  padding-top : 50px;
+}
+
+.card {
+  margin : 20px 10px 6px;
+  padding : 20px 6px;
+
+}
+
+
+.images {
+  height : 17rem;
+  margin-bottom: 10px;
+}
+
+#cards {
+  margin : 1px 4px;
+  padding :5px;
+}
+
+
+
+@media (max-width : 750px) {
+
+
+  .profile-img {
+    height: 190px;
+    border-radius : 50%;
+    text-align : center;
+    margin : auto;
+    padding : auto;
+  }
+
+  .profile-box, .card, .col, profile-details {
+    text-align : center;
+    align-items: center;
+    margin : 10px;
+    padding : 10px;
+    font-size : 90%;
+    border : none;
+  }
+
+}
